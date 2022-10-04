@@ -1,0 +1,33 @@
+table {
+    margin: 0 auto;
+    background: cornflowerblue;
+}
+table td, table th {
+    border: 1px solid #3c3c3c;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+table thead {
+    background: #4186ff;
+}
+.actions-container {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.actions-container button {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: aquamarine;
+    padding: 7px 12px;
+    font-size: 1.2rem;
+}
+.actions-container input {
+    display: inline-block;
+    padding: 7px 12px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 1rem
+}
